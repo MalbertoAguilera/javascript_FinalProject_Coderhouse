@@ -1,6 +1,6 @@
 .gridProductos {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       gap: 2rem;
       width: 80%;
 
@@ -27,8 +27,10 @@
                   padding: 2rem;
 
                   .producto__precio {
+                        margin-top: 2rem;
                         color: $color2;
                         font-weight: 900;
+                        font-size: 2.5rem;
                   }
             }
 
